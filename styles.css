@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+header .logo {
+    padding: 0px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+header .social-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 50px;
+    font-weight: bold;
+    color: white;
+}
+header .social-links a:hover {
+    color: #0077b5;
+}
+
+.room-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.room-info {
+    flex: 1;
+    padding-right: 100px;
+    padding-left: 40px;
+}
+
+.room-info .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.room-info .short-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.room-info .room-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+}
+
+.room-info .description-name {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+}
+
+.room-info .room-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.room-image {
+    flex-shrink: 0;
+    width: 40%;
+}
+
+.room-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.room-info .divider {
+    height: 1px;
+    background-color: black;
+    margin: 40px 0;
+}
