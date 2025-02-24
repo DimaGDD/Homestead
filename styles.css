@@ -1,7 +1,9 @@
+/* Общие стили */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -11,19 +13,21 @@ header {
     border-bottom: 1px solid #ddd;
     height: 50px;
 }
+
 header .logo {
     padding: 0px 0px 0px 20px;
     font-size: 30px;
     font-weight: bold;
     color: white;
 }
+
 header .social-links a {
     text-decoration: none;
-    color: #333;
-    padding: 0 50px;
-    font-weight: bold;
     color: white;
+    padding: 0 20px; /* Уменьшили отступы для мобильных */
+    font-weight: bold;
 }
+
 header .social-links a:hover {
     color: #0077b5;
 }
@@ -74,7 +78,6 @@ header .social-links a:hover {
     font-size: 25px;
     font-weight: bold;
     color: #333;
-    margin-top: 30px;
 }
 
 .room-info .room-description {
@@ -99,4 +102,87 @@ header .social-links a:hover {
     height: 1px;
     background-color: black;
     margin: 40px 0;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 24px; /* Уменьшаем размер логотипа */
+    }
+
+    header .social-links a {
+        padding: 0 10px; /* Уменьшаем отступы для ссылок */
+    }
+
+    .room-block {
+        flex-direction: column; /* Меняем направление flex на вертикальное */
+        padding: 20px; /* Уменьшаем отступы */
+    }
+
+    .room-info {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%; /* Занимаем всю ширину */
+    }
+
+    .room-image {
+        width: 100%; /* Изображение занимает всю ширину */
+        margin-top: 20px; /* Отступ сверху */
+    }
+
+    .room-info .price {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+    }
+
+    .room-info .room-name {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+        margin-top: 20px; /* Уменьшаем отступ */
+    }
+
+    .room-info .description-name {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+        margin-top: 20px; /* Уменьшаем отступ */
+    }
+
+    .room-info .room-description {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+
+    .room-info .divider {
+        margin: 20px 0; /* Уменьшаем отступы */
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        font-size: 20px; /* Ещё меньше размер логотипа */
+    }
+
+    header .social-links a {
+        font-size: 14px; /* Уменьшаем размер шрифта ссылок */
+    }
+
+    .room-block {
+        padding: 15px; /* Ещё меньше отступы */
+    }
+
+    .room-info .price {
+        font-size: 20px; /* Ещё меньше размер шрифта */
+    }
+
+    .room-info .room-name {
+        font-size: 20px; /* Ещё меньше размер шрифта */
+    }
+
+    .room-info .description-name {
+        font-size: 18px; /* Ещё меньше размер шрифта */
+    }
+
+    .room-info .room-description {
+        font-size: 12px; /* Ещё меньше размер шрифта */
+    }
 }
