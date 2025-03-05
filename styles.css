@@ -24,13 +24,19 @@ header .logo {
 header .social-links a {
     text-decoration: none;
     color: white;
-    padding: 0 20px; /* Уменьшили отступы для мобильных */
+    padding: 0 20px;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
-header .social-links a:hover {
+header .social-links .vk:hover {
     color: #0077b5;
 }
+
+header .social-links .instagram:hover {
+    color: #d000ff;
+}
+
 
 .room-block {
     display: flex;
@@ -239,6 +245,21 @@ footer {
 
     .room-info .divider {
         margin: 20px 0; /* Уменьшаем отступы */
+    }
+
+    .slider-container button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        width: 7%;
+        font-size: 12px;
+        border-radius: 50%;
+        transition: background 0.3s;
     }
 }
 

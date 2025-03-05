@@ -23,5 +23,5 @@ function changeSlide(button, direction) {
     setTimeout(() => {
         imageElement.src = images[currentIndex];
         imageElement.style.opacity = 1;
-    }, 300);
+    }, 500);
 }
