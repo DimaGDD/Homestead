@@ -34,7 +34,7 @@ header .social-links .vk:hover {
 }
 
 header .social-links .instagram:hover {
-    color: #d000ff;
+    color: #e474fd;
 }
 
 
@@ -256,8 +256,8 @@ footer {
         border: none;
         padding: 10px 15px;
         cursor: pointer;
-        width: 7%;
-        font-size: 12px;
+        width: 4%;
+        font-size: 5px;
         border-radius: 50%;
         transition: background 0.3s;
     }
@@ -290,5 +290,20 @@ footer {
 
     .room-info .room-description {
         font-size: 12px; /* Ещё меньше размер шрифта */
+    }
+
+    .slider-container button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        width: 4%;
+        font-size: 5px;
+        border-radius: 50%;
+        transition: background 0.3s;
     }
 }

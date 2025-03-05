@@ -19,9 +19,12 @@ function changeSlide(button, direction) {
 
     currentIndex = (currentIndex + direction + images.length) % images.length;
 
+    // Начинаем анимацию затухания
     imageElement.style.opacity = 0;
-    setTimeout(() => {
+
+    // Меняем изображение после начала анимации, но до её завершения
+    imageElement.addEventListener('transitionend', () => {
         imageElement.src = images[currentIndex];
         imageElement.style.opacity = 1;
-    }, 500);
+    }, { once: true }); // Обработчик сработает только один раз
 }
