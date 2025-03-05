@@ -257,7 +257,7 @@ footer {
         padding: 10px 15px;
         cursor: pointer;
         width: 4%;
-        font-size: 5px;
+        font-size: 10px;
         border-radius: 50%;
         transition: background 0.3s;
     }
@@ -302,7 +302,7 @@ footer {
         padding: 10px 15px;
         cursor: pointer;
         width: 4%;
-        font-size: 5px;
+        font-size: 10px;
         border-radius: 50%;
         transition: background 0.3s;
     }
