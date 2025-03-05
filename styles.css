@@ -92,11 +92,6 @@ header .social-links a:hover {
     width: 40%;
 }
 
-.room-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
 
 .room-info .divider {
     height: 1px;
@@ -124,6 +119,47 @@ header .social-links a:hover {
     color: #ff6b6b; /* Цвет сердечек */
 }
 
+.slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-container img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 5%;
+}
+
+.slider-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 11%;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.slider-container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
 /* footer {
     display: flex;
     justify-content: space-between;
@@ -149,7 +185,7 @@ footer .social-links a{
 } */
 
 footer {
-    height: 200px;
+    height: 100px;
     background-color: black;
 }
 
