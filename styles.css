@@ -18,6 +18,7 @@ header .logo {
     padding: 0px 0px 0px 20px;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
 }
 
@@ -63,6 +64,8 @@ header .social-links .instagram:hover {
     font-size: 30px;
     font-weight: bold;
     color: #333;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .room-info .short-description {
@@ -76,7 +79,7 @@ header .social-links .instagram:hover {
     font-size: 30px;
     font-weight: bold;
     color: #333;
-    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .room-info .description-name {
@@ -120,10 +123,17 @@ header .social-links .instagram:hover {
 }
 
 .section-divider .hearts {
-    padding: 0 20px; /* Отступы вокруг сердечек */
-    font-size: 24px; /* Размер сердечек */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ff6b6b; /* Цвет сердечек */
 }
+
+.section-divider .hearts img
+{
+    width: 20%;
+}
+
 
 .slider-container {
     position: relative;
