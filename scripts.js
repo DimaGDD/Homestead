@@ -27,3 +27,7 @@ function changeSlide(button, direction) {
     //     imageElement.style.opacity = 1;
     // }, { once: true });
 }
+
+function scrollToMain() {
+    document.getElementById("main-content").scrollIntoView({ behavior: "smooth" });
+}
