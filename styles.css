@@ -237,14 +237,14 @@ header .social-links .instagram:hover {
 }
 
 footer {
-    background: #222;
+    background: black;
     color: white;
     padding: 20px 40px;
     height: 200px;
     box-sizing: border-box;
     display: flex;
-    align-items: center; /* Центрируем по вертикали */
-    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -363,6 +363,15 @@ footer .logo {
         line-height: 1.5;
         font-family: Arial, sans-serif;
     }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 100px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -419,5 +428,14 @@ footer .logo {
         font-size: 0.5rem;
         line-height: 1.5;
         font-family: Arial, sans-serif;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 50px;
     }
 }
