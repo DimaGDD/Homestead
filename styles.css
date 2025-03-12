@@ -395,13 +395,58 @@ footer .logo {
         font-family: Arial, sans-serif;
     }
 
-    .footer-content {
+    footer .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 800px;
         margin: 0 auto;
-        gap: 100px;
+        gap: 80px;
+    }
+
+    footer .logo {
+        padding: 0px 0px 0px 20px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+
+    footer .icon-vk {
+        font-size: 27px;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    footer .icon-instagram {
+        font-size: 27px;
+        color: white;
+        transition: 0.3s;
+    }
+
+    footer .contact-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 0;
+    }
+    
+    footer .contact {
+        /* padding: 0px 0px 0px 0px; */
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    footer .number {
+        /* padding: 0px 0px 0px 10px; */
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
     }
 }
 
@@ -461,12 +506,57 @@ footer .logo {
         font-family: Arial, sans-serif;
     }
 
-    .footer-content {
+    footer .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 800px;
         margin: 0 auto;
-        gap: 50px;
+        gap: 60px;
+    }
+
+    footer .logo {
+        padding: 0px 0px 0px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+
+    footer .icon-vk {
+        font-size: 22px;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    footer .icon-instagram {
+        font-size: 22px;
+        color: white;
+        transition: 0.3s;
+    }
+
+    footer .contact-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 0;
+    }
+    
+    footer .contact {
+        /* padding: 0px 0px 0px 0px; */
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+    
+    footer .number {
+        /* padding: 0px 0px 0px 10px; */
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
     }
 }
